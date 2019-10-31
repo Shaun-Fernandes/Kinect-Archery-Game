@@ -1,0 +1,91 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel MapDepthFrame2ColorFrame
+#pragma kernel MapColorSpace2DepthFrame
+
+
+float2 depthFocalLength;
+float2 depthPrincipalPoint;
+float3 depthRadialDistortion;
+
+float2 colorFocalLength;
+float2 colorPrincipalPoint;
+float3 colorRadialDistortion;
+
+float4x4 depth2colorMat;
+float4x4 color2depthMat;
+
+StructuredBuffer<float2> depthPlaneCoords;
+StructuredBuffer<int> depthDepthValues;
+RWStructuredBuffer<float2> colorPlaneCoords;
+
+StructuredBuffer<half3> colorSpaceCoords;
+RWStructuredBuffer<half2> colorDepthCoords;
+
+
+[numthreads(64,1,1)]
+void MapDepthFrame2ColorFrame (uint3 id : SV_DispatchThreadID)
+{
+    int idx = id.x;
+	float depth = (float)depthDepthValues[idx] / 1000.0;
+	
+	// unproject from depth plane
+	float x = (depthPlaneCoords[idx].x - depthPrincipalPoint.x) / depthFocalLength.x;
+	float y = (depthPrincipalPoint.y - depthPlaneCoords[idx].y) / depthFocalLength.y;
+
+	// undistort
+	float r = x * x + y * y;
+	float d = 1 - depthRadialDistortion.x * r - depthRadialDistortion.y * r * r - depthRadialDistortion.z * r * r * r;
+
+	// depth space coords
+	float4 depthSpacePoint = float4(x * d * depth, y * d * depth, depth, 1.0);
+
+	// color space coords
+	float4 colorSpacePoint = mul(depth2colorMat, depthSpacePoint);
+	
+	// project on color plane
+	float u = colorFocalLength.x * colorSpacePoint.x / colorSpacePoint.z + colorPrincipalPoint.x;
+	float v = colorPrincipalPoint.y - (colorFocalLength.y * colorSpacePoint.y / colorSpacePoint.z);
+
+	// distort 
+	u = (u - colorPrincipalPoint.x) / colorFocalLength.x;
+	v = (colorPrincipalPoint.y - v) / colorFocalLength.y;
+
+	r = u * u + v * v;
+	d = 1 + colorRadialDistortion.x * r + colorRadialDistortion.y * r * r + colorRadialDistortion.z * r * r * r;
+
+	u = u * d * colorFocalLength.x + colorPrincipalPoint.x;
+	v = colorPrincipalPoint.y - v * d * colorFocalLength.y;
+	
+	colorPlaneCoords[idx] = float2(u, v);
+}
+
+
+[numthreads(64,1,1)]
+void MapColorSpace2DepthFrame (uint3 id : SV_DispatchThreadID)
+{
+    int idx = id.x;
+	
+	// color space coords
+	float4 colorSpacePoint = float4((float3)colorSpaceCoords[idx], 1.0);
+
+	// depth space coords
+	float4 depthSpacePoint = mul(color2depthMat, colorSpacePoint);
+	
+	// project on depth plane
+	float u = depthFocalLength.x * depthSpacePoint.x / depthSpacePoint.z + depthPrincipalPoint.x;
+	float v = depthPrincipalPoint.y - (depthFocalLength.y * depthSpacePoint.y / depthSpacePoint.z);
+
+	// distort 
+	u = (u - depthPrincipalPoint.x) / depthFocalLength.x;
+	v = (depthPrincipalPoint.y - v) / depthFocalLength.y;
+
+	float r = u * u + v * v;
+	float d = 1 + depthRadialDistortion.x * r + depthRadialDistortion.y * r * r + depthRadialDistortion.z * r * r * r;
+
+	u = u * d * depthFocalLength.x + depthPrincipalPoint.x;
+	v = depthPrincipalPoint.y - v * d * depthFocalLength.y;
+	
+	colorDepthCoords[idx] = half2(u, v);
+}
+
+

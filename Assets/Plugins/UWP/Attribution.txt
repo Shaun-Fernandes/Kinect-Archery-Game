@@ -1,0 +1,3 @@
+The UWP version of the K2-asset includes the MultiK2 library by Jan Marcincin (https://github.com/jmarcincin/MultiK2).  
+That portion of the software is copyright (c) 2017 by Jan Marcincin.
+

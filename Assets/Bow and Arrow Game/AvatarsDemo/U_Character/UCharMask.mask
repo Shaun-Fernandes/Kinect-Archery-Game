@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1011 &101100000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UCharMask
+  m_Mask: 01000000000000000000000001000000010000000000000000000000000000000000000000000000000000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: U
+    m_Weight: 1
+  - m_Path: U/joint_Char
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipLT/joint_KneeLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipLT/joint_KneeLT/joint_FootLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipLT/joint_KneeLT/joint_FootLT/joint_ToeLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipRT/joint_KneeRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipRT/joint_KneeRT/joint_FootRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_HipMaster/joint_HipRT/joint_KneeRT/joint_FootRT/joint_ToeRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_CapitateLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_CapitateLT/joint_FingersALT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_CapitateLT/joint_FingersALT/joint_FingersBLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_CapitateLT/joint_FingersALT/joint_FingersBLT/joint_FingersCLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_CapitateLT/joint_IndexALT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_CapitateLT/joint_IndexALT/joint_IndexBLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_CapitateLT/joint_IndexALT/joint_IndexBLT/joint_IndexCLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_PisiformLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_PisiformLT/joint_PinkyALT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_PisiformLT/joint_PinkyALT/joint_PinkyBLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_PisiformLT/joint_PinkyALT/joint_PinkyBLT/joint_PinkyCLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_PisiformLT/joint_RingALT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_PisiformLT/joint_RingALT/joint_RingBLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_PisiformLT/joint_RingALT/joint_RingBLT/joint_RingCLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_ThumbALT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_ThumbALT/joint_ThumbBLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleLT/joint_ShoulderLT/joint_ElbowLT/joint_HandLT/joint_ThumbALT/joint_ThumbBLT/joint_ThumbCLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_CapitateRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_CapitateRT/joint_FingersART
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_CapitateRT/joint_FingersART/joint_FingersBRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_CapitateRT/joint_FingersART/joint_FingersBRT/joint_FingersCRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_CapitateRT/joint_IndexART
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_CapitateRT/joint_IndexART/joint_IndexBRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_CapitateRT/joint_IndexART/joint_IndexBRT/joint_IndexCRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_PisiformRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_PisiformRT/joint_PinkyART
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_PisiformRT/joint_PinkyART/joint_PinkyBRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_PisiformRT/joint_PinkyART/joint_PinkyBRT/joint_PinkyCRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_PisiformRT/joint_RingART
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_PisiformRT/joint_RingART/joint_RingBRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_PisiformRT/joint_RingART/joint_RingBRT/joint_RingCRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_ThumbART
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_ThumbART/joint_ThumbBRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_ClavicleRT/joint_ShoulderRT/joint_ElbowRT/joint_HandRT/joint_ThumbART/joint_ThumbBRT/joint_ThumbCRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_CheekLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_CheekRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_DimpleLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_DimpleRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyebrowInnerLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyebrowInnerRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyebrowOuterLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyebrowOuterRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyelidsDownLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyelidsDownRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyelidUpLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyelidUpRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyeLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_EyeRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_Jaw
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_LipCornerLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_LipCornerRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_LowerLip
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_LowerLipLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_LowerLipRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_NoseMain
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_NoseSideLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_NoseSideRT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_UpperLip
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_UpperLipLT
+    m_Weight: 1
+  - m_Path: U/joint_Char/joint_Pelvis/joint_TorsoA/joint_TorsoB/joint_TorsoC/joint_Neck/joint_Head/joint_UpperLipRT
+    m_Weight: 1
+  - m_Path: U_Char
+    m_Weight: 1
+  - m_Path: U_Char_Eye_L
+    m_Weight: 1
+  - m_Path: U_Char_Eye_R
+    m_Weight: 1

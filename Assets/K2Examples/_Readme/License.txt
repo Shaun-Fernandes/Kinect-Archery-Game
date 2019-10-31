@@ -1,0 +1,6 @@
+These assets are copyright 2014-2017 by RF Solutions - Rumen Filkov.
+
+By purchasing these assets on the Unity Store, you gain the right to use them in products you create and distribute.
+You do not gain the right to share or publicize the source code of these assets under any circumstances.
+This is not open source; The source code and demo scenes may not be included in public repositories.
+
