@@ -2,7 +2,7 @@
 A Unity based archery game with Microsoft Kinect integration.
 
 <p align="center">
-    <img src="Media/Final Game.png", height="400">
+    <img src="Media/Final Game.png", width="750">
     <br>
     <sup>Final game view</sup>
 </p>
@@ -23,7 +23,7 @@ Clone this git repo, and open this scene file in unity:
 ##### Forest
 
 <p align="center">
-    <img src="Media/Forest Scene.png", height="400">
+    <img src="Media/Forest Scene.png", width="900">
     <br>
     <sup>Forest Scene</sup>
 </p>
@@ -31,7 +31,7 @@ Clone this git repo, and open this scene file in unity:
 ##### Bow and Arrow
 
 <p align="center">
-    <img src="Media/bow and arrow.png", height="300">
+    <img src="Media/bow and arrow.png", width="500">
     <br>
     <sup>Bow and Arrow with a pulled string</sup>
 </p>
@@ -39,7 +39,7 @@ Clone this git repo, and open this scene file in unity:
 ##### Target
 
 <p align="center">
-    <img src="Media/Archery Target.png", height="300">
+    <img src="Media/Archery Target.png", width="300">
     <br>
     <sup>Archery Target</sup>
 </p>
@@ -47,7 +47,7 @@ Clone this git repo, and open this scene file in unity:
 ##### Arrow Trail
 
 <p align="center">
-    <img src="Media/arrow being fired.png", width="750">
+    <img src="Media/arrow being fired.png", width="650">
     <br>
     <sup>Arrow being fired with a red trail showing the path it took</sup>
 </p>
@@ -55,7 +55,7 @@ Clone this git repo, and open this scene file in unity:
 ##### Arrow Predicted Trajectory
 
 <p align="center">
-    <img src="Media/predicted trajectory.png", width="800">
+    <img src="Media/predicted trajectory.png", width="700">
     <br>
     <sup>Calculating and Displaying the predicted trajectory of the arrow</sup>
 </p>
@@ -64,9 +64,7 @@ Clone this git repo, and open this scene file in unity:
 ##### Final Game
 
 <p align="center">
-    <img src="Media/Final Game.png", height="400">
+    <img src="Media/Final Game.png", width="800">
     <br>
     <sup>Screenshot of the final game with a scoring system</sup>
 </p>
-
-
